@@ -24,7 +24,7 @@ export const aboutData = {
     "Over my 4 years in industry I've worked with websites, computer networks and software products covering many languages and frameworks.",
   paragraphThree:
     'I am now looking for an innovative and ambitious company based in London which are looking to take their software products to the next level.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  // resume: './images/Robert-Robson-CV.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -85,9 +85,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'shopping.png',
     title: 'Shopping List',
-    info: 'Multiple projects require dynamic lists so here is my custome list!',
+    info: 'Multiple projects require dynamic lists so here is my custom list!',
     info2:
-      'This list module has multiple features such as: drag & drop, delete, add new items, edit items, tick off selected items.',
+      'This list module has multiple features such as: drag & drop, delete items, add new items, edit items, tick off selected items.',
     url: 'https://robrobsontech.github.io/Shopping-List/',
     repo: 'https://github.com/RobRobsonTech/Shopping-List', // if no repo, the button will not show up
   },
