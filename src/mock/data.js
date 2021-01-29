@@ -64,18 +64,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'portfolio.png',
-    title: 'Portfolio Site',
-    info: '',
-    info2: '',
-    url: 'https://www.robrobsontech.co.uk/',
+    title: 'Portfolio Site 2020',
+    info:
+      'You are currently looking at my 2021 portfolio website which is using React & deployed via AWS Amplify.',
+    info2: 'If you want to check out my 2020 portfolio site click here:',
+    url: 'https://robrobsontech.github.io/Robert-Robson-Portfolio/',
     repo: 'https://github.com/RobRobsonTech/Robert-Robson-Portfolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'background.png',
     title: 'Background Generator',
-    info: '',
-    info2: '',
+    info: 'This project lets users quickly create expressive website backgrounds.',
+    info2:
+      'When you choose the colours you want, the css you need is instantly created for you to use!',
     url: 'https://robrobsontech.github.io/Background-Generator/',
     repo: 'https://github.com/RobRobsonTech/Background-Generator', // if no repo, the button will not show up
   },
@@ -83,8 +85,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'shopping.png',
     title: 'Shopping List',
-    info: '',
-    info2: '',
+    info: 'Multiple projects require dynamic lists so here is my custome list!',
+    info2:
+      'This list module has multiple features such as: drag & drop, delete, add new items, edit items, tick off selected items.',
     url: 'https://robrobsontech.github.io/Shopping-List/',
     repo: 'https://github.com/RobRobsonTech/Shopping-List', // if no repo, the button will not show up
   },
