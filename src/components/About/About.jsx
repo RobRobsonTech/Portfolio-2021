@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import File from '../../images/Robert-Robson-CV.pdf';
+import File from '../../pdf/Robert-Robson-CV.pdf';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
